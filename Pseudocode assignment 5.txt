@@ -1,0 +1,99 @@
+1.Write a pseudocode for displaying the largest number for the user defined array
+
+ public static void main(String[] args) 
+    {
+      
+       int i ;
+       Scanner s=new Scanner(System.in);
+
+        System.out.println("enter number of elements");
+
+        int n=s.nextInt();
+
+        int arr[]=new int[n];
+
+        System.out.println("enter elements");
+
+        for( i=0;i<n;i++)
+        {
+            arr[i]=s.nextInt();
+            System.out.println(arr[i]);
+        
+        for(int j = 0 ; j<=arr[i]; j++)
+        {
+        if(arr[i]>arr[i+1])
+        {
+          
+            arr[i] =arr[i+1];
+        }
+           
+            System.out.println(  "is the largest " );
+            
+        }
+          }
+        
+    
+    }
+}
+  
+
+
+2.Write  a  pseudocode  to  calculate  the  average  of  the elements in the given array of size 10.
+
+           public static void main(String[] args) 
+    {
+      
+       int i ,sum=1;
+       Scanner s=new Scanner(System.in);
+
+        
+       int arr[]=new int[10];
+
+        System.out.println("enter elements");
+
+        for( i=0;i<10;i++)
+        {
+            arr[i]=s.nextInt();
+            System.out.println(arr[i]);
+
+           sum = arr[i] + sum ;
+          int avg = sum /10;
+
+          System.out.println(avg);
+
+  }
+
+    }
+}
+
+
+
+3.Write a pseudocode to display the sum of two matrix having size 3.
+
+public class matrix {
+        public static void main(String[] args) {
+        int rows = 3, columns = 3;
+        int[][] firstMatrix = { {2, 3, 4}, {5, 2, 3} ,{1,2,3} };
+        int[][] secondMatrix = { {-4, 5, 3}, {5, 6, 3},{3,4,5} };
+      
+
+        
+        int[][] sum = new int[rows][columns];
+        for(int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                sum[i][j] = firstMatrix[i][j] + secondMatrix[i][j];
+            }
+        }
+
+        
+        System.out.println("Sum of two matrices is: ");
+        for(int[] row : sum) {
+            for (int column : row) {
+                System.out.print(column + "    ");
+            }
+            System.out.println();
+        }
+    }
+
+}
+

@@ -1,0 +1,51 @@
+Question1 -Write a programming logic for  the series 2 3 5 -2 3 -5 -2
+
+
+ solution=
+
+begin
+     accept the num1
+     accept the num2
+     accept the no of times the series to be executed
+     
+     for(int i=2 ;i<n ;i++)
+         begin
+              if(i%2 == 0)
+                    begin
+                         result = num1 + num2
+                         num1 =num2
+                         num2 = result
+                     end
+             
+              else
+                    begin
+                         result = num1 - num2
+                         num 1= num2
+                         num2 = result
+                    end
+              display the result
+ 
+   end
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

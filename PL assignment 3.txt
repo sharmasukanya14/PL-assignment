@@ -1,0 +1,175 @@
+1.Write an algorithm for accepting two numbers, divide the first number by second and display their quotient.
+solution-
+
+import java.util.Scanner;
+
+
+public class div {
+    public static void main(String args[])
+    {
+        int a,b;
+                System.out.println("enter the value of the divisor and dividend");
+                Scanner sc = new Scanner(System.in);
+                a = sc.nextInt();
+                b=sc.nextInt();
+                int c = a/b;
+                System.out.println("the quotient is"+ c);
+    }
+
+2.Write an algorithm for accepting distance in kilometers, convert it into meters and display the result.
+
+solution- 
+
+package niit;
+import java.util.Scanner;
+public class kilometers {
+    public static void main(String args[])
+    {
+        int a,b;
+        System.out.println("Enter the distance in kilometers");
+        Scanner sc =new Scanner(System.in);
+        a = sc.nextInt();
+       b = a*1000;
+       System.out.println("the distance is converted in meters"+ b);
+        
+    }
+    
+
+3.Write an algorithm for accepting five numbers and display the sum and average of the numbers.
+
+Solution-
+
+package niit;
+import java.util.Scanner;
+
+public class sum {
+    public static void main(String args[])
+            
+    {
+        int a,b,c,d,e;
+        System.out.println(" enter the value of 5 values for addition");
+        Scanner sc = new Scanner(System.in);
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        e=sc.nextInt();
+        int sum = (a+b+c+d+e);
+        System.out.println("the sum  " + sum);
+        int avg = sum/5;
+        System.out.println("the avg is " +avg);
+        
+    }
+}
+
+
+4.Write an algorithm for accepting  a number and display the whether it is odd or even.
+
+package niit;
+import java.util.Scanner;
+public class even {
+    public static void main(String args[])
+    {
+        int a;
+        System.out.println("enter any number");
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        if(a%2==0)
+        {
+            System.out.println("the number is even");
+        }
+        else
+        {
+            System.out.println("the number is odd");
+        }
+    }
+
+5.Write an algorithm for accepting  two numbers and display  the highest number among two.
+
+package niit;
+import java.util.Scanner;
+public class largest {
+    public static void main(String args[])
+    {
+        int a,b;
+        System.out.println("enter two numbers");
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        b = sc.nextInt();
+        
+        if(a>b)
+        {
+            System.out.println(a+" is greater");
+        }
+        else
+        {
+            System.out.println(b + "  is greater");
+        }
+    }
+
+6.Write an algorithm for calculating the area of rectangle and square separately.
+
+package niit;
+import java.util.Scanner;
+public class square {
+    public static void main(String args[])
+    {
+        int side,b,l;
+        System.out.println("enter the side of a square and the lengtha and breadth of rectangle");
+        Scanner sc = new Scanner(System.in);
+        side = sc.nextInt();
+        l=sc.nextInt();
+        b=sc.nextInt();
+       int area1 = side* side;
+       int area2 = l*b;
+       System.out.println("the area of square "  + area1);
+       System.out.println(" the area of rectangle " + area2 );
+                
+
+
+
+    }
+
+Exercise 
+7.Write an algorithm for accepting the distance and speed values for a particular journey, calculate the time taken for  the journey and display the same.
+
+package niit;
+import java.util.Scanner;
+
+public class time {
+    public static void main(String args[])
+    {
+        int speed,dist;
+        System.out.println("enter the value of speed and distance");
+        Scanner sc = new Scanner(System.in);
+        speed = sc.nextInt();
+        dist =sc.nextInt();
+        
+        int time = dist/speed;
+               
+        System.out.println("the time "+ time);
+        
+                
+                
+    }
+
+8.Write an algorithm for accepting third character of the given string and then display whether it is vowel or constant.
+
+solution-
+
+public class String1 {
+    public static void main(String args[])
+    {
+        String a = new String(" Abed");
+        char b= a.charAt(3);
+        if(b=='A'||b=='E'||b=='I'||b=='O'||b=='U'||b=='a'||b=='e'||b=='i'||b=='o'||b=='u')
+        {
+            System.out.println("vowel");
+        }
+        else
+        {
+            System.out.println("consonant");
+        }
+    }
+
+

@@ -1,0 +1,44 @@
+Ques - Write a programming logic to change upper case to lower case and vice versa?
+
+Sol-
+begin
+
+   int temp;
+   char ch;
+   accept  a character
+   result = ch
+        if(result>=97 && result<=122)
+               begin
+                      result =result-32
+                      display the result
+               end
+        else if(result>=65 && result <= 90 )
+               begin
+                    result = result + 32
+                    display the result
+                end
+       else
+           begin
+                display invalid data
+           end
+end
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

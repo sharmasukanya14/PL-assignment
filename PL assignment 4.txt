@@ -1,0 +1,164 @@
+1.Write an algorithm for accepting radius and calculate the area of the circle.
+solution-
+
+algoritm== 
+step1 -start the algorithm
+step2-accept the radius
+step3-area=3.14*radius*radius
+step4-display the result
+step5-end the algorithm
+
+
+
+
+2.Draw a flow chart for accepting radius and calculate the area of the circle.
+
+3.Write  a  pseudocode  for  accepting radius  and  calculate the area of the circle.
+
+psedocode=
+begin
+     accept the radius
+      area=3.14*radius * radius
+      display the area
+end
+
+
+4.Write  an  algorithm  for  accepting a  number  and  display the multiplication table of the given number.
+
+Algorithm=
+
+step1-start the algorithm
+step2-accept the number
+step3-for(int i=1;i<=10;i++)
+step4-table=number*i
+step5-display the table
+step6- end the algorithm
+
+5.Draw a flow chart for accepting a number and display the multiplication table of the given number.
+6.Write a pseudocode for accepting a number and display the multiplication table of the given number.
+
+psedocode-
+begin
+     accept the number
+     for(int i=1;i<=10;i++)
+        begin
+             table = number*i;
+        end
+     display the table
+end
+
+
+7.Write an algorithm for checking whether given number is perfect number or not.
+
+ algorithm=
+ 
+step1-start the algorithm
+step2-accept the number
+step3-if the number is multiplied by itself 
+      then it is perfect number
+step4-else not a perfect number
+step5- display the result
+step6- end the algorithm
+
+
+
+8.Write a pseudocode for checking whether given number is perfect number or not.
+
+psedocode=
+
+begin
+     accept the number
+     if(result =number*number)
+        begin
+             perfect number
+        end
+   else
+      begin
+            not a perfect number
+      end
+
+   display the result  
+end
+
+9.Write  an  algorithm  for accepting  three  numbers  and display the lowest number out of three numbers.
+algorithm-
+     step1- start the algorithm
+     step2- accept first number
+     step3- accept second number
+     step4- accept third number
+     step5-if first number is smaller then second and third
+     step6- display first number is smallest
+     step7- else if second number is smaller than first and third
+     step8- display second number is smallest
+     step9- else
+     step10- display third number is smallest
+     step11- end the algorithm
+10.Write  a  pseudocode for accepting  three  numbers  and display the lowest number out of three numbers.
+psedocode -
+   begin
+        accept first number
+        accept second number
+        accept third number
+        if(first<second && first<third)
+             begin
+                  display first number is smallest
+             end
+       else if(second<first && second<third)
+              begin
+                    display second number is smallest
+              end
+       else 
+            begin
+                  display third number is smallest
+            end
+end
+ 
+11.Write an  algorithm to swap two numbers without using third variable.
+   algorithm
+         step1-accept the numb1
+         step2-accept the numb2
+         step3- add two numbers in numb1
+         step4- subtract numb2 from numb1 in numb2
+         step5- subtract numb2 from numb1 in numb1
+         step6 - display numb1 and numb2
+         step7 - end the algoithm
+12.Write a pseudocode to swap two numbers without using third variable.
+ psedocode-
+         begin
+              accept num1
+              accept numb2
+              numb1 = numb1 + numb2
+              numb2 = numb1 - numb2
+              numb1 = numb1 - numb2
+              display the result
+         end
+13.Write  an  algorithm for  accepting  a  number  and  check whether number is perfect square or not.
+ algorithm=
+ 
+step1-start the algorithm
+step2-accept the number
+step3-if the number is multiplied by itself 
+      then it is perfect number
+step4-else not a perfect number
+step5- display the result
+step6- end the algorithm
+
+
+14.Write  a  pseudocode for accepting  a  number  and  check whether number is perfect square or not.
+psedocode=
+
+begin
+     accept the number
+     if(result =number*number)
+        begin
+             perfect number
+        end
+   else
+      begin
+            not a perfect number
+      end
+
+   display the result  
+end
+
+

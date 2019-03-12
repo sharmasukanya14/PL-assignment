@@ -1,0 +1,35 @@
+Ques2- Write a programming logic to print the following pattern -
+
+s
+sc
+sch
+scho
+schoo
+school
+
+Ans
+   begin
+          char a[]
+          accept a string
+
+         for(int i=0;i<=s.length;i++)
+           begin
+                for(int j=0;j<=i;j++)
+                     begin
+                             display the result(s[j]);
+                     end
+                display the result( "  " )
+          end
+
+    
+   end
+   
+   
+
+
+   
+ 
+
+  
+
+
